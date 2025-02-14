@@ -200,7 +200,7 @@ class TvDatafeed:
             symbol (str): symbol name
             exchange (str, optional): exchange, not required if symbol is in format EXCHANGE:SYMBOL. Defaults to None.
             interval (str, optional): chart interval. Defaults to 'D'.
-            n_bars (int, optional): no of bars to download, max 5000. Defaults to 10.
+            n_bars (int, optional): no of bars to download, max 10000. Defaults to 10.
             fut_contract (int, optional): None for cash, 1 for continuous current contract in front, 2 for continuous next contract in front . Defaults to None.
             extended_session (bool, optional): regular session if False, extended session if True, Defaults to False.
 
